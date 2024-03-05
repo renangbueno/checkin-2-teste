@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    
+    <header>
+        <h4>Bom dia</h4>
+    </header>
+
+    <div id="tabelaGeral" class="tabelaGeral">
+        <button class="horariosL" id="horario1"> 15:00 </button>
+        <button class="horariosO" id="horario2"> 16:00 </button>
+        <button class="horariosL" id="horario3"> 17:00 </button>
+    </div>
+
+    <div id="formulario" class="formulario">
+            <input type="text" id="nome" placeholder="Nome">
+            <input type="tel" id="telefone" placeholder="Telefone">
+            <label for="servico">Selecione:</label>
+            <select id="servico">
+                <option value="1">ATESTE</option>
+                <option value="2">BTESTE</option>
+                <option value="3">CTESTE</option>
+            </select>
+            <label for="fpagamento">Selecione forma de pagamento:</label>
+            <select name="pagamento" id="fpagamento">
+                <option value="1">Dinheiro</option>
+                <option value="2">Cartão</option>
+                <option value="3">Pix</option>
+            </select>
+            <button id="enviar">Enviar</button>
+    </div>
+    
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
